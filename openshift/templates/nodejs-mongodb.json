@@ -73,7 +73,9 @@
           "type": "Git",
           "git": {
             "uri": "${SOURCE_REPOSITORY_URL}",
-            "ref": "${SOURCE_REPOSITORY_REF}"
+            "ref": "${SOURCE_REPOSITORY_REF}",
+            "httpProxy": "http://gc-prd-squid.itc.griffith.edu.au:3128",
+            "httpsProxy": "https://gc-prd-squid.itc.griffith.edu.au:3128"
           },
           "contextDir": "${CONTEXT_DIR}"
         },
